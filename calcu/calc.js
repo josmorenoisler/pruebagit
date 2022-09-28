@@ -12,7 +12,7 @@ form.addEventListener('submit',function(event){
             var result = i/j;
             var percent = result*100;
 
-            resultField.innerText="Result: "+percent+"%";
+            resultField.innerText="Result: "+percent.toFixed(2)+"%";
             //previene que se resetee la pag
             event.preventDefault();
         }

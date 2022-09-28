@@ -1,0 +1,52 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 23rem;
+    padding: 0rem 2rem 2rem 2rem;
+    background-color: grey;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 5px #00000050;
+
+}
+
+.display{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    width: 20rem;
+    height: 7rem;
+    border-radius: 1.5rem;
+    border: 5px solid #666666;
+    color: greenyellow;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+
+}
+input{
+    width: 5rem;
+    height: 1.5rem;
+}
+
+.button{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color:white;
+    background-color: black;
+    font-size: 1rem;
+
+}
+.button:hover{
+    color:black;
+    background-color: white;
+}
